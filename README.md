@@ -3,7 +3,7 @@ Responsive sliders by RangeSliderJS --
 > Simple, small and fast JavaScript/jQuery polyfill for the HTML5 `<input type="range">` slider element.
 * Feeds values off JSON
 * Locks slider to available and closest value 
-* Autom-adjusts sibling corresponding sliders to match json given data
+* Auto-adjusts sibling corresponding sliders to match json given data
 
 
 ## Install

@@ -1,0 +1,17 @@
+extends ./templates/template-home
+block sliders
+	h1 Range sliders
+	p Get slider plugin form 
+		| 
+		a(href="http://andreruffert.github.io/rangeslider.js/" target="_blank") http://andreruffert.github.io/rangeslider.js/
+		|  by André Ruffert
+
+	- for (var i = 1; i <= 5; i++ )
+		.input-slider
+			input.sliderRange(id="slider"+i type="range" min="0" max="100" step="1" value="0" data-index=i)
+				
+		.input-text   
+			input.sliderText(type="number" value="1" min="1" max="100" data-index=i disabled)
+
+
+	P Developed by W'hales
